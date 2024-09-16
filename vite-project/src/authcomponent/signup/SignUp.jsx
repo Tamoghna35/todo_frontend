@@ -1,6 +1,8 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
+    const navigate = useNavigate()
 const [name, setName] =useState("")
 const [email, setEmail] =useState("")
     const [password, setPassword] = useState("")
@@ -36,12 +38,13 @@ const [email, setEmail] =useState("")
             
             const result = await response.json()
             console.log("result ==>", result);
-            
+            navigate("/signin");
             
         } catch (error) {
             console.log("Unable to Register", error);
             
         }
+     
 
     }
     
