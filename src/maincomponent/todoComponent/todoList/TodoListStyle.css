@@ -1,0 +1,19 @@
+.main_todo{
+    display: flex;
+    background-color: chartreuse;
+}
+.todoName_description{
+    display:  flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 30vwq;
+    background-color: blueviolet;
+}
+.lable-style{
+    display: flex;
+    gap: 2px;
+}
+.statusButton{
+    display: flex;
+    gap: 5px;
+}

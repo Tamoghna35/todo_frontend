@@ -1,0 +1,37 @@
+.signUpForm {
+  width: 50vw;
+  height: 60vh;
+  background-color: #444321;
+  margin: auto;
+  margin-top: 10px;
+}
+.formFields {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+ margin: auto;
+ padding-top: 20px;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+.fields input {
+  padding: 10px;
+  font-size: 16px;
+}
+.button-class{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttonStyle{
+    
+    
+    height: 25px; /* Adjust the height as needed */
+    width: 100px; /* Adjust the width as needed */
+    font-size: 16px; /* Adjust font size if necessary */
+    line-height: 50px;
+}

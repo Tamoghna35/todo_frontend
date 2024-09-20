@@ -1,0 +1,7 @@
+.searchComponent{
+    width: 30vw;
+    height:8vh;
+    background-color: #df3535;
+    display: flex;
+    gap: 5px;
+}
