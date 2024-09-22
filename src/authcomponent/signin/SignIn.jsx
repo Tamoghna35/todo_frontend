@@ -60,7 +60,8 @@ const SignIn = ({ login }) => {
           login()
         );
 
-        navigateHook("/todomain");
+        // navigateHook("/todomain");
+        navigateHook("/createTodo");
       })
       .catch((error) => {
         console.error("Error while login user:", error);
@@ -102,6 +103,7 @@ const SignIn = ({ login }) => {
             iconPos="right"
             // onClick={() => navigateHook("/todomain")}
             className="buttonStyle"
+            type="submit"
           />
         </div>
       </form>

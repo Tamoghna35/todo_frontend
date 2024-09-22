@@ -6,7 +6,7 @@ import SignIn from './authcomponent/signin/SignIn'
 import Navbar from './maincomponent/Navbar/Navbar'
 // import Logout from './authcomponent/logout/Logout'
 import TodoMain from './maincomponent/todoComponent/todoMain/TodoMain'
-
+import CreateTodo from './maincomponent/todoComponent/createTodo/CreateTodo'
 
 
 const App = () => {
@@ -23,6 +23,7 @@ const App = () => {
           <Route path="/signin" element={<SignIn login={login} />} />
           {/* <Route path="/logout" element={<Logout login={logOut} />} /> */}
           <Route path='/todomain' element={ <TodoMain/>} />
+          <Route path='/createTodo' element={ <CreateTodo/>} />
         </Routes>
       </div>
     </Router>
